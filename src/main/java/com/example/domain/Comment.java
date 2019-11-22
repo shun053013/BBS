@@ -7,13 +7,13 @@ package com.example.domain;
  */
 public class Comment {
 
-	/**	 */
+	/**	コメントのID */
 	private Integer id;
-	/**	 */
+	/**	コメント者名 */
 	private String name;
-	/** */
+	/** コメント内容 */
 	private String content;
-	/**	 */
+	/**	コメントが紐づく記事のID */
 	private Integer articleId;
 	
 	public Integer getId() {

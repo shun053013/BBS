@@ -9,9 +9,13 @@ import java.util.List;
  */
 public class Article {
 
+	/**	記事のID */
 	private Integer id;
+	/**	記事の投稿者名 */
 	private String name;
+	/**	記事内容 */
 	private String content;
+	/**	コメント一覧 */
 	private List<Comment> commentList;
 	
 	public Integer getId() {
