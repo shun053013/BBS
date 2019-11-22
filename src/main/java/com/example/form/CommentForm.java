@@ -8,18 +8,18 @@ package com.example.form;
  */
 public class CommentForm {
 	/** 投稿者ID */
-	private String articleid;
+	private String articleId;
 	/** 投稿者名 */
 	private String name;
 	/** 投稿者コメント */
 	private String content;
 
-	public String getArticleid() {
-		return articleid;
+	public String getArticleId() {
+		return articleId;
 	}
 
-	public void setArticleid(String articleid) {
-		this.articleid = articleid;
+	public void setArticleid(String articleId) {
+		this.articleId = articleId;
 	}
 
 	public String getName() {
@@ -40,7 +40,7 @@ public class CommentForm {
 
 	@Override
 	public String toString() {
-		return "CommentForm [articleid=" + articleid + ", name=" + name + ", content=" + content + "]";
+		return "CommentForm [articleid=" + articleId + ", name=" + name + ", content=" + content + "]";
 	}
 
 }

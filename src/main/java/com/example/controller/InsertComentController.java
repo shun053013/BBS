@@ -35,7 +35,7 @@ public class InsertComentController {
 	public String insertComment(CommentForm commentForm, Model model) {
 		Comment comment = new Comment();
 		BeanUtils.copyProperties(commentForm, comment);
-		comment.setArticleId(Integer.parseInt(commentForm.getArticleid()));
+		comment.setArticleId(Integer.parseInt(commentForm.getArticleId()));
 		commentRepository.insert(comment);
 		return "redirect:/article";
 
