@@ -13,6 +13,7 @@ import com.example.domain.Article;
 import com.example.form.ArticleForm;
 import com.example.form.CommentForm;
 import com.example.repository.ArticleRepository;
+import com.example.repository.CommentRepository;
 
 /**
  * 記事の追加を行うコントローラークラス.
